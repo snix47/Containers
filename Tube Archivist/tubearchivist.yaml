@@ -15,7 +15,7 @@ services:
       - REDIS_CON=redis://archivist-redis:6379 # new in update 5.0.0
       - HOST_UID=1000
       - HOST_GID=1000
-      - TA_HOST=http://10.0.0.1:8000        # new setting since v 0.5.0 set your host name with protocol and port
+      - TA_HOST=http://xxx.xxx.xxx.xxx:8000        # new setting since v 0.5.0 set your host name with protocol and port
       - TA_USERNAME=blow                    # your initial TA credentials
       - TA_PASSWORD=me                 	    # your initial TA credentials
       - ELASTIC_PASSWORD=hard               # set password for Elasticsearch
